@@ -3,13 +3,13 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
     id        = "kmrs.merchant.app"
-    version   = "2.2">
-    <name>Karenderia Order Taking App</name>
+    version   = "1.0">
+    <name>Cliko Order Taking App</name>
     <description>
-        Karenderia Order Taking App
+        Cliko Order Taking App
     </description>
-    <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+    <author email="paulorinze@gmail.com" href="http://cordova.io">
+        draft.co.mz
     </author>
     <icon src="icon.png" />           
     <content src="index.html" />
@@ -61,10 +61,10 @@
     
      <platform name="ios">    
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-	        <string>Karenderia want to always use your location</string>
+	        <string>Cliko want to always use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-	        <string>Karenderia wants to use your location</string>
+	        <string>Cliko wants to use your location</string>
 	    </config-file>
 	</platform>   
 	    
